@@ -1,0 +1,10 @@
+[run]
+branch = True
+omit = *migrations*,
+       *urls*,
+       *test*,
+       *admin*,
+       ./actibuilder/config/*,
+       ./actibuilder/manage.py,
+       ./actibuilder/wsgi.py,
+       *__init__*
